@@ -1,5 +1,5 @@
 class SearchEngine
   def self.count_results(query)
-    0
+    Google::Search::Web.new(:query => query).get_response.estimated_count
   end
 end
