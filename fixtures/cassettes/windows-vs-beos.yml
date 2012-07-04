@@ -1,0 +1,243 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.google.com/uds/GwebSearch?filter=1&hl=en&key=notsupplied&q=windows&rsz=large&start=0&v=1.0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Date:
+      - Wed, 04 Jul 2012 04:17:29 GMT
+      Content-Type:
+      - text/javascript; charset=utf-8
+      X-Embedded-Status:
+      - '200'
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - GSE
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyZXNwb25zZURhdGEiOiB7InJlc3VsdHMiOlt7IkdzZWFyY2hSZXN1bHRD
+        bGFzcyI6Ikd3ZWJTZWFyY2giLCJ1bmVzY2FwZWRVcmwiOiJodHRwOi8vd2lu
+        ZG93cy5taWNyb3NvZnQuY29tLyIsInVybCI6Imh0dHA6Ly93aW5kb3dzLm1p
+        Y3Jvc29mdC5jb20vIiwidmlzaWJsZVVybCI6IndpbmRvd3MubWljcm9zb2Z0
+        LmNvbSIsImNhY2hlVXJsIjoiaHR0cDovL3d3dy5nb29nbGUuY29tL3NlYXJj
+        aD9xXHUwMDNkY2FjaGU6c1lRY0g2TXlwandKOndpbmRvd3MubWljcm9zb2Z0
+        LmNvbSIsInRpdGxlIjoiTWljcm9zb2Z0IFx1MDAzY2JcdTAwM2VXaW5kb3dz
+        XHUwMDNjL2JcdTAwM2UiLCJ0aXRsZU5vRm9ybWF0dGluZyI6Ik1pY3Jvc29m
+        dCBXaW5kb3dzIiwiY29udGVudCI6IlRoZSBvZmZpY2lhbCB3ZWJzaXRlIGZv
+        ciB0aGUgTWljcm9zb2Z0IFx1MDAzY2JcdTAwM2VXaW5kb3dzXHUwMDNjL2Jc
+        dTAwM2Ugb3BlcmF0aW5nIHN5c3RlbS4gRXhwbG9yZSAgIFx1MDAzY2JcdTAw
+        M2VXaW5kb3dzXHUwMDNjL2JcdTAwM2UgaW5mbywgZ2V0IGRvd25sb2Fkcywg
+        YW5kIGZpbmQgdGhlIGxhdGVzdCBQQ3MgZm9yIFx1MDAzY2JcdTAwM2VXaW5k
+        b3dzXHUwMDNjL2JcdTAwM2UuIn0seyJHc2VhcmNoUmVzdWx0Q2xhc3MiOiJH
+        d2ViU2VhcmNoIiwidW5lc2NhcGVkVXJsIjoiaHR0cDovL3dpbmRvd3MubWlj
+        cm9zb2Z0LmNvbS9lbi11cy93aW5kb3dzNy9wcm9kdWN0cy9ob21lIiwidXJs
+        IjoiaHR0cDovL3dpbmRvd3MubWljcm9zb2Z0LmNvbS9lbi11cy93aW5kb3dz
+        Ny9wcm9kdWN0cy9ob21lIiwidmlzaWJsZVVybCI6IndpbmRvd3MubWljcm9z
+        b2Z0LmNvbSIsImNhY2hlVXJsIjoiaHR0cDovL3d3dy5nb29nbGUuY29tL3Nl
+        YXJjaD9xXHUwMDNkY2FjaGU6Uk5takxKbS1YYU1KOndpbmRvd3MubWljcm9z
+        b2Z0LmNvbSIsInRpdGxlIjoiXHUwMDNjYlx1MDAzZVdpbmRvd3NcdTAwM2Mv
+        Ylx1MDAzZSA3IC0gTWljcm9zb2Z0IFx1MDAzY2JcdTAwM2VXaW5kb3dzXHUw
+        MDNjL2JcdTAwM2UiLCJ0aXRsZU5vRm9ybWF0dGluZyI6IldpbmRvd3MgNyAt
+        IE1pY3Jvc29mdCBXaW5kb3dzIiwiY29udGVudCI6IkdldCB0byBrbm93IFdp
+        bmRvd3MgNy4gQ2hlY2sgb3V0IHRoZSBjb29sIG5ldyBmZWF0dXJlcywgY29t
+        cGFyZSBlZGl0aW9ucywgYW5kICAgc2VlIHdoYXQgaXQgY2FuIGRvIGZvciB5
+        b3UuIn0seyJHc2VhcmNoUmVzdWx0Q2xhc3MiOiJHd2ViU2VhcmNoIiwidW5l
+        c2NhcGVkVXJsIjoiaHR0cDovL3dpbmRvd3N1cGRhdGUubWljcm9zb2Z0LmNv
+        bS8iLCJ1cmwiOiJodHRwOi8vd2luZG93c3VwZGF0ZS5taWNyb3NvZnQuY29t
+        LyIsInZpc2libGVVcmwiOiJ3aW5kb3dzdXBkYXRlLm1pY3Jvc29mdC5jb20i
+        LCJjYWNoZVVybCI6Imh0dHA6Ly93d3cuZ29vZ2xlLmNvbS9zZWFyY2g/cVx1
+        MDAzZGNhY2hlOk9LX0JhMktoNy0wSjp3aW5kb3dzdXBkYXRlLm1pY3Jvc29m
+        dC5jb20iLCJ0aXRsZSI6Ik1pY3Jvc29mdCBVcGRhdGUiLCJ0aXRsZU5vRm9y
+        bWF0dGluZyI6Ik1pY3Jvc29mdCBVcGRhdGUiLCJjb250ZW50IjoiTGF0ZXN0
+        IGJ1ZyBmaXhlcyBmb3IgTWljcm9zb2Z0IFdpbmRvd3MsIGluY2x1ZGluZyBm
+        aXhlcyBmb3Igc29tZSBwb3NzaWJsZSBEb1MgICBhdHRhY2tzLiJ9LHsiR3Nl
+        YXJjaFJlc3VsdENsYXNzIjoiR3dlYlNlYXJjaCIsInVuZXNjYXBlZFVybCI6
+        Imh0dHA6Ly93aW5kb3dzLm1pY3Jvc29mdC5jb20vZW4tVVMvd2luZG93cy04
+        L3JlbGVhc2UtcHJldmlldyIsInVybCI6Imh0dHA6Ly93aW5kb3dzLm1pY3Jv
+        c29mdC5jb20vZW4tVVMvd2luZG93cy04L3JlbGVhc2UtcHJldmlldyIsInZp
+        c2libGVVcmwiOiJ3aW5kb3dzLm1pY3Jvc29mdC5jb20iLCJjYWNoZVVybCI6
+        Imh0dHA6Ly93d3cuZ29vZ2xlLmNvbS9zZWFyY2g/cVx1MDAzZGNhY2hlOkJM
+        cnRKSlJWRlI0Sjp3aW5kb3dzLm1pY3Jvc29mdC5jb20iLCJ0aXRsZSI6Ilx1
+        MDAzY2JcdTAwM2VXaW5kb3dzXHUwMDNjL2JcdTAwM2UgOCBSZWxlYXNlIFBy
+        ZXZpZXciLCJ0aXRsZU5vRm9ybWF0dGluZyI6IldpbmRvd3MgOCBSZWxlYXNl
+        IFByZXZpZXciLCJjb250ZW50IjoiTGVhcm4gYWJvdXQgYW5kIGRvd25sb2Fk
+        IE1pY3Jvc29mdCBXaW5kb3dzIDggUmVsZWFzZSBQcmV2aWV3LCBhIHByZXJl
+        bGVhc2UgICB2ZXJzaW9uIG9mIE1pY3Jvc29mdCBXaW5kb3dzIDguIn0seyJH
+        c2VhcmNoUmVzdWx0Q2xhc3MiOiJHd2ViU2VhcmNoIiwidW5lc2NhcGVkVXJs
+        IjoiaHR0cDovL2VuLndpa2lwZWRpYS5vcmcvd2lraS9NaWNyb3NvZnRfV2lu
+        ZG93cyIsInVybCI6Imh0dHA6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvTWlj
+        cm9zb2Z0X1dpbmRvd3MiLCJ2aXNpYmxlVXJsIjoiZW4ud2lraXBlZGlhLm9y
+        ZyIsImNhY2hlVXJsIjoiaHR0cDovL3d3dy5nb29nbGUuY29tL3NlYXJjaD9x
+        XHUwMDNkY2FjaGU6cVNXLVJFNHlZOVlKOmVuLndpa2lwZWRpYS5vcmciLCJ0
+        aXRsZSI6Ik1pY3Jvc29mdCBcdTAwM2NiXHUwMDNlV2luZG93c1x1MDAzYy9i
+        XHUwMDNlIC0gV2lraXBlZGlhLCB0aGUgZnJlZSBlbmN5Y2xvcGVkaWEiLCJ0
+        aXRsZU5vRm9ybWF0dGluZyI6Ik1pY3Jvc29mdCBXaW5kb3dzIC0gV2lraXBl
+        ZGlhLCB0aGUgZnJlZSBlbmN5Y2xvcGVkaWEiLCJjb250ZW50IjoiTWljcm9z
+        b2Z0IFx1MDAzY2JcdTAwM2VXaW5kb3dzXHUwMDNjL2JcdTAwM2UgaXMgYSBz
+        ZXJpZXMgb2YgZ3JhcGhpY2FsIGludGVyZmFjZSBvcGVyYXRpbmcgc3lzdGVt
+        cyBkZXZlbG9wZWQgICwgbWFya2V0ZWQsIGFuZCBzb2xkIGJ5IE1pY3Jvc29m
+        dC4gTWljcm9zb2Z0IGludHJvZHVjZWQgYW4gb3BlcmF0aW5nIFx1MDAzY2Jc
+        dTAwM2UuLi5cdTAwM2MvYlx1MDAzZSJ9LHsiR3NlYXJjaFJlc3VsdENsYXNz
+        IjoiR3dlYlNlYXJjaCIsInVuZXNjYXBlZFVybCI6Imh0dHA6Ly93d3cuYW5k
+        ZXJzZW53aW5kb3dzLmNvbS8iLCJ1cmwiOiJodHRwOi8vd3d3LmFuZGVyc2Vu
+        d2luZG93cy5jb20vIiwidmlzaWJsZVVybCI6Ind3dy5hbmRlcnNlbndpbmRv
+        d3MuY29tIiwiY2FjaGVVcmwiOiJodHRwOi8vd3d3Lmdvb2dsZS5jb20vc2Vh
+        cmNoP3FcdTAwM2RjYWNoZTp2NEg4R213Nzk0Y0o6d3d3LmFuZGVyc2Vud2lu
+        ZG93cy5jb20iLCJ0aXRsZSI6IkFuZGVyc2VuIFx1MDAzY2JcdTAwM2VXaW5k
+        b3dzXHUwMDNjL2JcdTAwM2UgXHUwMDI2YW1wOyBEb29ycyIsInRpdGxlTm9G
+        b3JtYXR0aW5nIjoiQW5kZXJzZW4gV2luZG93cyBcdTAwMjZhbXA7IERvb3Jz
+        IiwiY29udGVudCI6IkFuZGVyc2VuIFx1MDAzY2JcdTAwM2VXaW5kb3dzXHUw
+        MDNjL2JcdTAwM2Ug4oCTIEVuZXJneSBFZmZpY2llbnQgXHUwMDNjYlx1MDAz
+        ZVdpbmRvd3NcdTAwM2MvYlx1MDAzZSBcdTAwMjZhbXA7IERvb3JzIGZvciBc
+        dTAwM2NiXHUwMDNlV2luZG93XHUwMDNjL2JcdTAwM2UgICBSZXBsYWNlbWVu
+        dCwgSG9tZSBSZW1vZGVsaW5nLCBhbmQgQnVpbGRpbmcuIn0seyJHc2VhcmNo
+        UmVzdWx0Q2xhc3MiOiJHd2ViU2VhcmNoIiwidW5lc2NhcGVkVXJsIjoiaHR0
+        cDovL3d3dy5wZWxsYS5jb20vIiwidXJsIjoiaHR0cDovL3d3dy5wZWxsYS5j
+        b20vIiwidmlzaWJsZVVybCI6Ind3dy5wZWxsYS5jb20iLCJjYWNoZVVybCI6
+        Imh0dHA6Ly93d3cuZ29vZ2xlLmNvbS9zZWFyY2g/cVx1MDAzZGNhY2hlOnBQ
+        VVljMFpHUlc4Sjp3d3cucGVsbGEuY29tIiwidGl0bGUiOiJQZWxsYSBcdTAw
+        M2NiXHUwMDNlV2luZG93c1x1MDAzYy9iXHUwMDNlIGFuZCBEb29ycyB8IFdv
+        b2QsIEZpYmVyZ2xhc3MsIFZpbnlsIFx1MDAzY2JcdTAwM2VXaW5kb3dzXHUw
+        MDNjL2JcdTAwM2UgfCBQZWxsYSBcdTAwM2NiXHUwMDNlLi4uXHUwMDNjL2Jc
+        dTAwM2UiLCJ0aXRsZU5vRm9ybWF0dGluZyI6IlBlbGxhIFdpbmRvd3MgYW5k
+        IERvb3JzIHwgV29vZCwgRmliZXJnbGFzcywgVmlueWwgV2luZG93cyB8IFBl
+        bGxhIC4uLiIsImNvbnRlbnQiOiJEaXNjb3ZlciBQZWxsYVx1MDAyNiMzOTtz
+        IGVuZXJneSBlZmZpY2llbnQgcmVwbGFjZW1lbnQgXHUwMDNjYlx1MDAzZXdp
+        bmRvd3NcdTAwM2MvYlx1MDAzZSBhbmQgZG9vcnMuIFBob3RvIGdhbGxlcnks
+        ICAgcHJvZHVjdCBidWlsZGVyLCBwcm9qZWN0IGlkZWFzLCBleHBlcnQgY29u
+        c3VsdGF0aW9ucyBhbmQgbW9yZSBhdCBQZWxsYS5jb20uIn0seyJHc2VhcmNo
+        UmVzdWx0Q2xhc3MiOiJHd2ViU2VhcmNoIiwidW5lc2NhcGVkVXJsIjoiaHR0
+        cDovL3d3dy5tYXJ2aW4uY29tL3dpbmRvd3MvIiwidXJsIjoiaHR0cDovL3d3
+        dy5tYXJ2aW4uY29tL3dpbmRvd3MvIiwidmlzaWJsZVVybCI6Ind3dy5tYXJ2
+        aW4uY29tIiwiY2FjaGVVcmwiOiJodHRwOi8vd3d3Lmdvb2dsZS5jb20vc2Vh
+        cmNoP3FcdTAwM2RjYWNoZTpXelQyWnBfTXFFNEo6d3d3Lm1hcnZpbi5jb20i
+        LCJ0aXRsZSI6Ik1hcnZpbiBcdTAwM2NiXHUwMDNlV2luZG93c1x1MDAzYy9i
+        XHUwMDNlIC0gQ3VzdG9tIFx1MDAzY2JcdTAwM2VXaW5kb3dzXHUwMDNjL2Jc
+        dTAwM2UgTmV3IENvbnN0cnVjdGlvbiBvciBSZW1vZGVsaW5nIiwidGl0bGVO
+        b0Zvcm1hdHRpbmciOiJNYXJ2aW4gV2luZG93cyAtIEN1c3RvbSBXaW5kb3dz
+        IE5ldyBDb25zdHJ1Y3Rpb24gb3IgUmVtb2RlbGluZyIsImNvbnRlbnQiOiJN
+        YXJ2aW4gXHUwMDNjYlx1MDAzZVdpbmRvd3NcdTAwM2MvYlx1MDAzZSBhbmQg
+        RG9vcnMgbWFudWZhY3R1cmVzIGN1c3RvbSBcdTAwM2NiXHUwMDNld2luZG93
+        c1x1MDAzYy9iXHUwMDNlIGZvciBuZXcgY29uc3RydWN0aW9uICAgcHJvamVj
+        dHMgb3IgcmVwbGFjZW1lbnQgXHUwMDNjYlx1MDAzZXdpbmRvd3NcdTAwM2Mv
+        Ylx1MDAzZSBmb3IgcmVtb2RlbGluZyBwcm9qZWN0cyBhbmQgcmVub3ZhdGlv
+        bnMuIn1dLCJjdXJzb3IiOnsicmVzdWx0Q291bnQiOiIyODQsMDAwLDAwMCIs
+        InBhZ2VzIjpbeyJzdGFydCI6IjAiLCJsYWJlbCI6MX0seyJzdGFydCI6Ijgi
+        LCJsYWJlbCI6Mn0seyJzdGFydCI6IjE2IiwibGFiZWwiOjN9LHsic3RhcnQi
+        OiIyNCIsImxhYmVsIjo0fSx7InN0YXJ0IjoiMzIiLCJsYWJlbCI6NX0seyJz
+        dGFydCI6IjQwIiwibGFiZWwiOjZ9LHsic3RhcnQiOiI0OCIsImxhYmVsIjo3
+        fSx7InN0YXJ0IjoiNTYiLCJsYWJlbCI6OH1dLCJlc3RpbWF0ZWRSZXN1bHRD
+        b3VudCI6IjI4NDAwMDAwMCIsImN1cnJlbnRQYWdlSW5kZXgiOjAsIm1vcmVS
+        ZXN1bHRzVXJsIjoiaHR0cDovL3d3dy5nb29nbGUuY29tL3NlYXJjaD9vZVx1
+        MDAzZHV0ZjhcdTAwMjZpZVx1MDAzZHV0ZjhcdTAwMjZzb3VyY2VcdTAwM2R1
+        ZHNcdTAwMjZzdGFydFx1MDAzZDBcdTAwMjZmaWx0ZXJcdTAwM2QxXHUwMDI2
+        aGxcdTAwM2Rlblx1MDAyNnFcdTAwM2R3aW5kb3dzIiwic2VhcmNoUmVzdWx0
+        VGltZSI6IjAuMTIifX0sICJyZXNwb25zZURldGFpbHMiOiBudWxsLCAicmVz
+        cG9uc2VTdGF0dXMiOiAyMDB9
+    http_version: 
+  recorded_at: Wed, 04 Jul 2012 04:17:30 GMT
+- request:
+    method: get
+    uri: http://www.google.com/uds/GwebSearch?filter=1&hl=en&key=notsupplied&q=beos&rsz=large&start=0&v=1.0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Date:
+      - Wed, 04 Jul 2012 04:17:29 GMT
+      Content-Type:
+      - text/javascript; charset=utf-8
+      X-Embedded-Status:
+      - '200'
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      Server:
+      - GSE
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: US-ASCII
+      string: ! '{"responseData": {"results":[{"GsearchResultClass":"GwebSearch","unescapedUrl":"http://en.wikipedia.org/wiki/BeOS","url":"http://en.wikipedia.org/wiki/BeOS","visibleUrl":"en.wikipedia.org","cacheUrl":"http://www.google.com/search?q\u003dcache:7Oa71Kl1e_4J:en.wikipedia.org","title":"\u003cb\u003eBeOS\u003c/b\u003e
+        - Wikipedia, the free encyclopedia","titleNoFormatting":"BeOS - Wikipedia,
+        the free encyclopedia","content":"\u003cb\u003eBeOS\u003c/b\u003e was an operating
+        system for personal computers which began   development by Be Inc. in 1991.
+        It was first written to run on BeBox hardware.   \u003cb\u003eBeOS\u003c/b\u003e
+        was \u003cb\u003e...\u003c/b\u003e"},{"GsearchResultClass":"GwebSearch","unescapedUrl":"http://haiku-os.org/","url":"http://haiku-os.org/","visibleUrl":"haiku-os.org","cacheUrl":"http://www.google.com/search?q\u003dcache:2SUseGOVCr8J:haiku-os.org","title":"Home
+        | Haiku Project","titleNoFormatting":"Home | Haiku Project","content":"Jun
+        25, 2012 \u003cb\u003e...\u003c/b\u003e Haiku is an open source desktop operating
+        system currently under development   inspired by the \u003cb\u003eBeOS\u003c/b\u003e.
+        Haiku aims to provide users of all levels \u003cb\u003e...\u003c/b\u003e"},{"GsearchResultClass":"GwebSearch","unescapedUrl":"http://toastytech.com/guis/b5pe.html","url":"http://toastytech.com/guis/b5pe.html","visibleUrl":"toastytech.com","cacheUrl":"http://www.google.com/search?q\u003dcache:cEpBLs17DX8J:toastytech.com","title":"\u003cb\u003eBeOS\u003c/b\u003e
+        5.0 Personal Edition","titleNoFormatting":"BeOS 5.0 Personal Edition","content":"\u003cb\u003eBeOS\u003c/b\u003e
+        is a powerful OS designed primarily for Multimedia desktop use. Originally   \u003cb\u003eBeOS\u003c/b\u003e
+        was designed for a custom computer system known as the BeBox that \u003cb\u003e...\u003c/b\u003e"},{"GsearchResultClass":"GwebSearch","unescapedUrl":"http://www.bebits.com/app/2680","url":"http://www.bebits.com/app/2680","visibleUrl":"www.bebits.com","cacheUrl":"http://www.google.com/search?q\u003dcache:8I9QwZ-0WbIJ:www.bebits.com","title":"BeBits
+        - \u003cb\u003eBeOS\u003c/b\u003e 5 Personal Edition","titleNoFormatting":"BeBits
+        - BeOS 5 Personal Edition","content":"Dec 24, 2001 \u003cb\u003e...\u003c/b\u003e
+        Note: \u003cb\u003eBeOS\u003c/b\u003e does not properly run on modern computers.
+        Patches are available,   but the Haiku OS team has been making a lot of progress
+        \u003cb\u003e...\u003c/b\u003e"},{"GsearchResultClass":"GwebSearch","unescapedUrl":"http://www.bebits.com/","url":"http://www.bebits.com/","visibleUrl":"www.bebits.com","cacheUrl":"http://www.google.com/search?q\u003dcache:8An6xyPmjHgJ:www.bebits.com","title":"BeBits
+        - \u003cb\u003eBeOS\u003c/b\u003e Software!","titleNoFormatting":"BeBits -
+        BeOS Software!","content":"A \u003cb\u003eBeOS\u003c/b\u003e files site similar
+        to Freshmeat and winfiles.com. A source for files and   applications for the
+        Be Operating System."},{"GsearchResultClass":"GwebSearch","unescapedUrl":"http://www.beincorporated.com/","url":"http://www.beincorporated.com/","visibleUrl":"www.beincorporated.com","cacheUrl":"http://www.google.com/search?q\u003dcache:kkaC4rYHI10J:www.beincorporated.com","title":"Incorporate
+        Online with our Incorporation Service: Company Formation","titleNoFormatting":"Incorporate
+        Online with our Incorporation Service: Company Formation","content":"Business
+        Incorporation Service to form Corporation, LLC, s corporation, c   corporation
+        and non profits at low prices, company formation and registration   service
+        in \u003cb\u003e...\u003c/b\u003e"},{"GsearchResultClass":"GwebSearch","unescapedUrl":"http://www.videolan.org/vlc/download-beos.html","url":"http://www.videolan.org/vlc/download-beos.html","visibleUrl":"www.videolan.org","cacheUrl":"http://www.google.com/search?q\u003dcache:NpkjA1KwBRIJ:www.videolan.org","title":"VideoLAN
+        - VLC media player for \u003cb\u003eBeOS\u003c/b\u003e","titleNoFormatting":"VideoLAN
+        - VLC media player for BeOS","content":"Mirror, Location, Download. Random
+        mirror, Not too far away \u003cb\u003e...\u003c/b\u003e"},{"GsearchResultClass":"GwebSearch","unescapedUrl":"http://www.osnews.com/story/421\u0026page\u003d13","url":"http://www.osnews.com/story/421%26page%3D13","visibleUrl":"www.osnews.com","cacheUrl":"http://www.google.com/search?q\u003dcache:svMyr-wnhQoJ:www.osnews.com","title":"MacOSX
+        Week: Tales of a \u003cb\u003eBeOS\u003c/b\u003e Refugee","titleNoFormatting":"MacOSX
+        Week: Tales of a BeOS Refugee","content":"Dec 17, 2001 \u003cb\u003e...\u003c/b\u003e
+        The story of how a \u003cb\u003eBeOS\u003c/b\u003e refugee (and not just everyone,
+        but the author of the \u0026#39;  \u003cb\u003eBeOS\u003c/b\u003e Bible\u0026#39;
+        book) lost faith in the future of computing, resigned \u003cb\u003e...\u003c/b\u003e"}],"cursor":{"resultCount":"520,000","pages":[{"start":"0","label":1},{"start":"8","label":2},{"start":"16","label":3},{"start":"24","label":4},{"start":"32","label":5},{"start":"40","label":6},{"start":"48","label":7},{"start":"56","label":8}],"estimatedResultCount":"520000","currentPageIndex":0,"moreResultsUrl":"http://www.google.com/search?oe\u003dutf8\u0026ie\u003dutf8\u0026source\u003duds\u0026start\u003d0\u0026filter\u003d1\u0026hl\u003den\u0026q\u003dbeos","searchResultTime":"0.07"}},
+        "responseDetails": null, "responseStatus": 200}'
+    http_version: 
+  recorded_at: Wed, 04 Jul 2012 04:17:30 GMT
+recorded_with: VCR 2.2.2
