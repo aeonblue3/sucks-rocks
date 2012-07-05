@@ -6,6 +6,7 @@ class CachedScore < ActiveRecord::Base
 	attr_accessible :term, :score
 
 	def self.save_score(term, score)
+    score = nil if score == RockScore::NoScore
 		create!(:term => term, :score => score)
 	end
 
