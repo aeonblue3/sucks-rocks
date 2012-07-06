@@ -11,8 +11,8 @@ describe CachedScore do
     end.to raise_error(CachedScore::NoScore)
   end
 
-  it "saves NoScores as nil" do
+  it "round-trips NoScores to the database" do
     CachedScore.save_score("microsoft", RockScore::NoScore)
-    CachedScore.for_term("microsoft").should be_nil
+    CachedScore.for_term("microsoft").should == RockScore::NoScore
   end
 end
