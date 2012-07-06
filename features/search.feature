@@ -15,3 +15,8 @@ Feature: Users can learn how good something is
 	Scenario: Search for term with no score
 		When I search for asdfoihreiariififi
 		Then I should see no score
+
+	Scenario: Search for cached term with no score
+		Given microsoft is cached with no score
+		When I search for microsoft
+		Then I should see no score
