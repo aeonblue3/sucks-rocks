@@ -7,12 +7,14 @@ Given /^microsoft is cached with no score$/ do
 end
 
 When /^I search for (.*)$/ do |term|
-    @scores ||= {}
-    @scores[term] = @last_score = ScoreCache.for_term(term)
+  @scores ||= {}
+  visit query_path(:term => term)
+  score = ActiveSupport::JSON.decode(page.source).fetch("score")
+  @scores[term] = @last_score = score
 end
 
 Then /^the beatles should have a higher score than comcast$/ do
-    @scores["the beatles"].should be > @scores["comcast"]
+  @scores["the beatles"].should be > @scores["comcast"]
 end
 
 Then /^I should see a score of 2.5$/ do
