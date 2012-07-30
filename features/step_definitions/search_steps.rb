@@ -22,5 +22,5 @@ Then /^I should see a score of 2.5$/ do
 end
 
 Then /^I should see no score$/ do
-  @last_score.should == RockScore::NoScore
+  @last_score.should == nil
 end
